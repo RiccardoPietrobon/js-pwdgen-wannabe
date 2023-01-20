@@ -24,19 +24,19 @@ const my_nazione = `${stato}`;
 document.getElementById('nazione').innerHTML = my_nazione;
 
 //richiesta regione
-let stato = prompt("Qual è la tua regione?")
+let region = prompt("Qual è la tua regione?")
 //mia regione
-const my_regione = `${regione}`;
-document.getElementById('regione').innerHTML = my_nazione;
+const my_regione = `${region}`;
+document.getElementById('regione').innerHTML = my_regione;
 
-//richiesta nazione
-let stato = prompt("Qual è la tua nazione?")
-//mia nazione
-const my_nazione = `${stato}`;
-document.getElementById('nazione').innerHTML = my_nazione;
+//richiesta provincia
+let contea = prompt("Qual è la tua provincia?")
+//mia provincia
+const my_provincia = `${contea}`;
+document.getElementById('provincia').innerHTML = my_provincia;
 
-//richiesta nazione
-let stato = prompt("Qual è la tua nazione?")
-//mia nazione
-const my_nazione = `${stato}`;
-document.getElementById('nazione').innerHTML = my_nazione;
+//richiesta comune
+let city = prompt("Qual è la tua comune?")
+//mia comune
+const my_comune = `${city}`;
+document.getElementById('comune').innerHTML = my_comune;
